@@ -1,12 +1,11 @@
 # Yapper
 
-Upload an audio clip and let the AI autocomplete the rest. Powered by [hertz](https://github.com/Standard-Intelligence/hertz-dev) from Standard Intelligence.
+**[NVIDIA ONLY]** Upload an audio clip and let the AI autocomplete the rest. Powered by [hertz](https://github.com/Standard-Intelligence/hertz-dev) from Standard Intelligence.
 
-> NOTICE: NVIDIA GPU ONLY
+> See this thread from Standard Intelligence to learn what this model is capable of: https://x.com/si_pbc/status/1853184307063660723
 
 
 https://github.com/user-attachments/assets/13fe1e65-eafc-44bf-8d49-ed6ad7a0aaef
-
 
 
 # Credits
