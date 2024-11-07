@@ -1,4 +1,4 @@
-# Hallucinator
+# Yapper
 
 Upload an audio clip and let the AI autocomplete the rest. Powered by [hertz](https://github.com/Standard-Intelligence/hertz-dev) from Standard Intelligence.
 
