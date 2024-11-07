@@ -2,6 +2,11 @@
 
 Upload an audio clip and let the AI autocomplete the rest. Powered by [hertz](https://github.com/Standard-Intelligence/hertz-dev) from Standard Intelligence.
 
+
+https://github.com/user-attachments/assets/13fe1e65-eafc-44bf-8d49-ed6ad7a0aaef
+
+
+
 # Credits
 
 This project is a slight modification of the official [hertz-dev](https://github.com/Standard-Intelligence/hertz-dev) project. Changes made:
