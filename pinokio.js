@@ -1,7 +1,7 @@
 const path = require('path')
 module.exports = {
   version: "2.0",
-  title: "Yapper",
+  title: "Hallucinator",
   description: "[NVIDIA ONLY] Autocomplete any voice(s), powered by Hertz AI (Standard Intelligence)",
   icon: "icon.gif",
   menu: async (kernel, info) => {
