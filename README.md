@@ -1,21 +1,37 @@
-# hertz-dev
+# Hallucinator
 
-Hertz-dev is an open-source, first-of-its-kind base model for full-duplex conversational audio.
+Upload an audio clip and let the AI autocomplete the rest. Powered by [hertz](https://github.com/Standard-Intelligence/hertz-dev) from Standard Intelligence.
 
-See our blog post for more details: https://si.inc/hertz-dev/
+# Credits
 
-## Setup
+This project is a slight modification of the official [hertz-dev](https://github.com/Standard-Intelligence/hertz-dev) project. Changes made:
 
-Inference is known to work on Python 3.10 and CUDA 12.1. Other versions have not been tested as thoroughly. If you want to use CUDA 12.1, you'll need to install torch with `pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121` before running `pip install -r requirements.txt`.
+1. **app.py:** added a gradio web ui for audio autocompletion
+2. **transformer.py:** Use `SDPBackend.EFFICIENT_ATTENTION` instead of `SDPBackend.FLASH_ATTENTION` because installing flash attention takes too long and we might be dead by the time it finishes installing.
 
-On Ubuntu you may need to install libportaudio: `sudo apt-get install libportaudio2`
 
-All three scripts will automatically download the models to the `./ckpt` directory, and checkpoints are also accessible at https://ckpt.si.inc/hertz-dev/index.txt
+# Install
 
-## Usage
+## 1. One Click Install
 
-We recommend starting by using `inference.ipynb` to generate one- or two-channel completions from a prompt.
+You can install it with one click on https://pinokio.computer
 
-Then, you can use `inference_client.py` and `inference_server.py` to talk to the model live through your microphone.
-These are currently experimental, and have primarily been tested with Ubuntu on the server and MacOS on the client.
+## 2. Manual Install
 
+Install pytorch
+
+```
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+```
+
+instal dependencies
+
+```
+pip install -r requirements.txt
+```
+
+## Run
+
+```
+python app.py
+```
