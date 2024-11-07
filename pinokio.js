@@ -1,8 +1,8 @@
 const path = require('path')
 module.exports = {
   version: "2.0",
-  title: "hallucinator",
-  description: "Autocomplete any voice(s), powered by Hertz AI (Standard Intelligence)",
+  title: "Yapper",
+  description: "[NVIDIA ONLY] Autocomplete any voice(s), powered by Hertz AI (Standard Intelligence)",
   icon: "icon.gif",
   menu: async (kernel, info) => {
     let installed = info.exists("env")
